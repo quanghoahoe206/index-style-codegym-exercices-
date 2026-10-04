@@ -1,0 +1,100 @@
+/* Thiết lập giao diện chung */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 30px auto;
+    max-width: 800px;
+    background-color: #f7fafc;
+    color: #2d3748;
+    padding: 0 20px;
+}
+
+h1 {
+    color: #1a365d;
+    border-bottom: 2px solid #2b6cb0;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #2b6cb0;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+section {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 16px 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+/* Mục 2: Kiểu đánh dấu vuông */
+.list-square {
+    list-style-type: square;
+}
+
+/* Mục 3: Đánh số La Mã in hoa */
+.list-roman {
+    list-style-type: upper-roman;
+}
+
+/* Mục 4: Đánh dấu bằng hình ảnh (icon SVG dạng tick xanh tích hợp sẵn) */
+.list-image {
+    list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="%232b6cb0"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>');
+}
+
+/* Mục 5: So sánh list-style-position */
+.pos-outside, .pos-inside {
+    border: 1px dashed #4a5568;
+    background-color: #edf2f7;
+    padding: 12px 20px;
+}
+
+.pos-outside {
+    list-style-position: outside;
+}
+
+.pos-inside {
+    list-style-position: inside;
+}
+
+/* Mục 6: Thuộc tính rút gọn list-style */
+.list-shorthand {
+    list-style: square inside;
+}
+
+/* Mục 7: Màu sắc và khoảng cách */
+.custom-color-list {
+    background-color: #2d3748;
+    padding: 20px 30px;
+    border-radius: 6px;
+    list-style-type: circle;
+}
+
+.custom-color-list li {
+    color: #f7fafc;
+    margin-bottom: 8px;
+    padding: 4px 8px;
+    background-color: #4a5568;
+    border-radius: 4px;
+}
+
+/* Mục 8: Lộ trình học lập trình Web (Tổng hợp) */
+.web-roadmap {
+    list-style: square inside;
+    background-color: #ebf8ff;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #3182ce;
+}
+
+.web-roadmap li {
+    color: #2c5282;
+    font-weight: bold;
+    padding: 8px 12px;
+    margin: 6px 0;
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
